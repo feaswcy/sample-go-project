@@ -1,2 +1,5 @@
 github.com/
 bin/
+models/
+controller/
+factory/

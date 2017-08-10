@@ -1,4 +1,4 @@
-package reqHandler
+package orderHandler
 
 import (
 	"net/http"

@@ -1,5 +1,15 @@
-package reqHandler
+package account
 
+import(
+	"log"
+)
+
+//注册接口
+func register(phone string, role string, password)([]map[string]interface{},err){
+
+}
+
+//判断是否注册
 func isRegister(phone string, role string) (bool, []map[string]interface{}, error) {
 
 	users, err := queryUser(phone, role)
